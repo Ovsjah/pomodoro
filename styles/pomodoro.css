@@ -1,0 +1,153 @@
+body {
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS8ZYFKKQAn-kn7WOpkvay3LYVNRQK8xJjTPmzTmx9qZ_ghWyBjEA');
+
+}
+
+#pomodoro {
+  width: 600px;
+  margin: 10% auto;
+}
+
+#settings {
+  background-color: green;
+  height: 100px;
+  width: 200px;
+  border-radius: 100%;
+  position: relative;
+  left: 190px;
+  top: 80px;
+}
+
+#timer {
+  background-color: red;
+  height: 500px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+#header {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  padding: 0;
+}
+
+#settings > div:first-child {
+  left: 40px;
+}
+
+#settings > div:nth-child(2) {
+  left: 120px;
+}
+
+#session_period {
+  position: relative;
+  width: 80px;
+  top: 40px;
+  left: 22px;
+  display: inline-block;
+}
+
+#break_period {
+  position: relative;
+  width: 80px;
+  top: 40px;
+  left: 25px;
+  display: inline-block;
+}
+
+#session_plus, #session_minus, #break_plus, #break_minus {
+ cursor: pointer;
+ color: yellow;
+ font-size: 2em;
+ position: relative;
+ top: -5px;
+}
+
+#session_minus, #break_minus {
+  top: -8px;
+}
+ 
+#break_min, #session_min {
+  font-size: 3em;
+}
+
+#start, #stop, #reset {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#start {
+  color: white;
+  top: 80px;
+  left: 180px;
+  background-color: #a4f442;
+}
+
+#stop {
+ top: 80px;
+ left: 240px;
+ background-color: yellow;
+ color: red;
+}
+
+#reset {
+  top: 310px;
+  left: 80px;
+  background-color: white;
+  color: blue;
+}
+
+#clock {
+  position: relative;
+  top: 110px;
+  left: 150px;
+  font-size: 8em;
+  color: white;
+  clear: both
+}
+
+h2 {
+  position: relative;
+  top: 80px;
+  left: 257px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#start:hover {
+  background-color: #a8e09d;
+  color: #448737
+}
+
+#start:active {
+  color: red;
+}
+
+#stop:hover {
+  background-color: #db0a0a;
+  color: #dbc60a;
+}
+
+#stop:active {
+  color: green;
+}
+
+#reset:hover {
+  background-color: blue;
+  color: yellow;
+}
+
+#reset:active {
+  color: purple;
+}
+#session_plus:active, #session_minus:active, #break_plus:active, #break_minus:active {
+  color: red;
+}

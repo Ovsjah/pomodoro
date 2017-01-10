@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="styles/pomodoro.css">
+  </head>
+  
+  <body>
+  
+    <div id="pomodoro">
+      <div id="settings">
+        <div id="header"><h4>Session</h4></div>
+        <div id="header"><h4>Break</h4></div>
+        <div id="session_period">
+          <a href="#" id="session_plus">+</a><span id="session_min">25</span><a href="#" id="session_minus">-</a>
+        </div>
+        <div id="break_period">
+          <a href="#" id="break_plus">+</a><span id="break_min">05</span><a href="#" id="break_minus">-</a>
+        </div>
+      </div>
+      
+      <div id="timer">
+        <h2 id="activity">Session</h2>
+        <a href="#" id="start">Start</a>
+        <a href="#" id="stop">Stop</a>
+        <a href="#" id="reset">Reset</a>
+        <div id="clock"></div>
+      </div>
+    </div>
+  
+    <script src="scripts/jquery-3.1.1.js"></script>
+    <script src="scripts/pomodoro.js"></script>
+    
+  </body>
+</html>  
